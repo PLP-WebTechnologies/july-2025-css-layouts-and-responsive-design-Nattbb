@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Layout Masters</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-grid">
+            <aside class="sidebar sidebar-left">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">UX/UI</a></li>
+                    <li><a href="#">Marketing</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h1>Modern Web Layouts</h1>
+                <p>This page demonstrates responsive design principles using both CSS Grid and Flexbox. Resize your browser to see how the layout adapts to different screen sizes.</p>
+                
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img">Flexbox Card</div>
+                        <div class="card-content">
+                            <h3>Flexbox Layout</h3>
+                            <p>Flexbox is perfect for one-dimensional layouts. It gives you control over alignment, direction, order, and size of items within a container.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-img">CSS Grid Card</div>
+                        <div class="card-content">
+                            <h3>CSS Grid Layout</h3>
+                            <p>CSS Grid is ideal for two-dimensional layouts. It allows you to create complex layouts with rows and columns that respond to screen size.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-img">Responsive Design</div>
+                        <div class="card-content">
+                            <h3>Responsive Design</h3>
+                            <p>Using media queries, we can adapt our layout to different screen sizes, ensuring optimal viewing experience across devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="sidebar sidebar-right">
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="#">Understanding CSS Grid</a></li>
+                    <li><a href="#">Flexbox Best Practices</a></li>
+                    <li><a href="#">Responsive Design Principles</a></li>
+                    <li><a href="#">Modern Web Layouts</a></li>
+                    <li><a href="#">CSS Variables Guide</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We create modern, responsive websites that look great on all devices using the latest web technologies.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Layout Masters. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
